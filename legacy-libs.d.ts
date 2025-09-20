@@ -1,8 +1,5 @@
-import $ from 'jquery';
-import Backbone from 'backbone';
 import StateMachine from 'javascript-state-machine';
 import _ from 'underscore';
-import locache from 'locache';
 import meld from 'meld';
 import Model from 'model-js';
 import cjs from 'constraintjs';
@@ -22,7 +19,7 @@ export type LocacheStatic = typeof locache;
  */
 export declare const legacyLibs: {
     /** jQuery: DOM manipulation library. Imported via default import. */
-    $: any;
+    $: globalThis.JQueryStatic;
     /** Backbone: MVC framework. Imported via default import. */
     Backbone: any;
     /** Underscore: Utility library, a dependency for Backbone. Imported via default import. */
