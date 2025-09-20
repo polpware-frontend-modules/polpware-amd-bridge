@@ -15,7 +15,7 @@ export type WhenStatic = typeof when;
  */
 export declare const legacyLibs: {
     /** jQuery: DOM manipulation library. Imported via default import. */
-    $: JQueryStatic;
+    $: any;
     /** Backbone: MVC framework. Imported via default import. */
     Backbone: any;
     /** Underscore: Utility library, a dependency for Backbone. Imported via default import. */
