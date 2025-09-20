@@ -4,22 +4,18 @@ import meld from 'meld';
 import Model from 'model-js';
 import cjs from 'constraintjs';
 import when from 'when';
-import 'backbone-paginator';
-export type JQueryStatic = typeof $;
-export type BackboneStatic = typeof Backbone;
 export type UnderscoreStatic = typeof _;
 export type StateMachineStatic = typeof StateMachine;
 export type MeldStatic = typeof meld;
 export type ModelJsStatic = typeof Model;
 export type CjsStatic = typeof cjs;
 export type WhenStatic = typeof when;
-export type LocacheStatic = typeof locache;
 /**
  * A single object that consolidates all legacy libraries for easy access.
  */
 export declare const legacyLibs: {
     /** jQuery: DOM manipulation library. Imported via default import. */
-    $: globalThis.JQueryStatic;
+    $: JQueryStatic;
     /** Backbone: MVC framework. Imported via default import. */
     Backbone: any;
     /** Underscore: Utility library, a dependency for Backbone. Imported via default import. */

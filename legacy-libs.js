@@ -7,9 +7,6 @@ import meld from 'meld';
 import Model from 'model-js';
 import cjs from 'constraintjs';
 import when from 'when';
-// 3. Import for side-effects (plugins)
-// This runs the plugin code, which attaches itself to the Backbone object.
-import 'backbone-paginator';
 /**
  * A single object that consolidates all legacy libraries for easy access.
  */
