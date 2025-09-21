@@ -1,6 +1,6 @@
 {
   "name": "@polpware/amd-bridge",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "The set of third party libraries that polpware packages depend on",
   "main": "index.js",
   "module": "index.js",
@@ -13,7 +13,6 @@
     "jquery": "^3.6.0",
     "locache": "https://github.com/polpware/locache.git",
     "meld": "^1.3.2",
-    "model-js": "^0.2.5",
-    "when": "^3.7.8"
+    "model-js": "^0.2.5"
   }
 }
