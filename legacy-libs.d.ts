@@ -1,9 +1,7 @@
 import StateMachine from 'javascript-state-machine';
-import _ from 'underscore';
 import meld from 'meld';
 import Model from 'model-js';
 import cjs from 'constraintjs';
-export type UnderscoreStatic = typeof _;
 export type StateMachineStatic = typeof StateMachine;
 export type MeldStatic = typeof meld;
 export type ModelJsStatic = typeof Model;
